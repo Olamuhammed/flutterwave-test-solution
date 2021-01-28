@@ -31,11 +31,13 @@ router.post('/validate-rule', (req,res) => {
 const validateBody = (body) => {
 
     let {rule, data} = body
-    let {field, condition, condition_value} = rule
 
     if(!rule){
         return('rule is required.')
     }
+    
+    let {field, condition, condition_value} = rule
+
 
     if(!data){
         return('data is required.')
