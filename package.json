@@ -4,9 +4,9 @@
   "description": "This is the flutter wave exam api",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon ./src/server.js",
+    "dev": "nodemon server.js",
     "test": "npm test",
-    "start": "node ./src/server.js"
+    "start": "node server.js"
   },
   "author": "Olagunju Mohammed",
   "license": "ISC",
